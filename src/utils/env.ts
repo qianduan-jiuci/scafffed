@@ -10,7 +10,7 @@ class EnvHeper{
     const cloneEnv = _.cloneDeep(import.meta.env)
     Object.entries(cloneEnv).forEach(([key,value]) => {
       if(value === 'true' ||  value === 'false'){
-        cloneEnv[key] = !!value
+        cloneEnv[key] = (value === 'true')
       }
       else if(/^\d+$/.test(value)) {
         cloneEnv[key] = +value
@@ -26,6 +26,6 @@ class EnvHeper{
   }
 }
 
-const { env } = new EnvHeper()
+const env = new EnvHeper().env
 
 export {env}

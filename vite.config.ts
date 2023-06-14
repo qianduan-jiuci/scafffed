@@ -3,7 +3,7 @@ import viteBaseConfig from './vite.base'
 import viteDevConfig from './vite.dev'
 import viteProdConfig from './vite.prod'
 import { parseEnv } from './vite/utils'
-import path from 'path'
+import * as path from 'path'
 import {defineConfig, loadEnv} from "vite";
 
 const viteConfig = {

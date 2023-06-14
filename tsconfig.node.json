@@ -6,5 +6,5 @@
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["./*.ts", "vite/**/*.ts", "mock/**/*.ts", "src/types/*.d.ts"]
+  "include": ["./*.ts", "vite/**/*.ts", "mock/**/*.ts", "src/types/*.d.ts", "*.d.ts"]
 }

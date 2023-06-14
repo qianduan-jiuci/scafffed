@@ -8,7 +8,6 @@
 </script>
 
 <template>
-<!--  <div border="1 red dashed" p="x-10 y-15" bg="cyan-100" class="bg-cyan-900 text-4xl">VUE</div>-->
 <router-view></router-view>
 </template>
 

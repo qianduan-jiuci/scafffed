@@ -29,9 +29,6 @@
       "~components/*": [
         "src/components/*"
       ],
-      "~mock/*": [
-        "src/mock/*"
-      ],
       "~router/*": [
         "src/router/*"
       ],
@@ -65,17 +62,25 @@
       "~api/*": [
         "src/api/*"
       ],
-      "~auth/*": [
-        "src/pages/auth/*"
+      "~upload/*": [
+        "src/pages/upload/*"
+      ],
+      "~validate/*": [
+        "src/plugin/validate/*"
       ]
-    }
+    },
+    "types": [
+      "element-plus/global.d.ts"
+    ]
   },
   "include": [
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
     "src/**/*.ts",
-    "types/**/*.ts"
+    "types/**/*.ts",
+    "auto-imports.d.ts",
+    "components.d.ts"
   ],
   "references": [
     {
